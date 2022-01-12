@@ -1,4 +1,4 @@
 const AboutPage = {
-    show: () => `a`,
+    show: () => `Trang tuyển sinh`,
 };
 export default AboutPage;
