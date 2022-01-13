@@ -1,4 +1,4 @@
-import { news } from "../data";
+import { news } from "../../data";
 
 const EditNews = {
     show(id) {

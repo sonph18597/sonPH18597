@@ -1,3 +1,23 @@
+const DataMenu = [
+    {
+        name: "Bảng điều khiển",
+        link: "admin/dashboard",
+    },
+    {
+        name: "Quản lí Người dùng",
+        link: "admin/users",
+    },
+    {
+        name: "Quản lí tin tức",
+        link: "admin/news",
+    },
+    {
+        name: "Người dùng cuối",
+        link: "/",
+    },
+
+];
+
 const DataUser = [
     {
         name: "Dang Khai",
@@ -44,4 +64,4 @@ const DataUser = [
     },
 ];
 
-export default DataUser;
+export { DataMenu, DataUser };

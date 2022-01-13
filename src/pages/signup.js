@@ -4,12 +4,12 @@ const Signup = {
       <div>
         <img class="mx-auto h-12 w-auto" src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg" alt="Workflow">
         <h2 class="mt-6 text-center text-3xl font-extrabold text-gray-900">
-          SIGN UP
+          ĐĂNG KÝ
         </h2>
         <p class="mt-2 text-center text-sm text-gray-600">
-          or
+          hoặc
           <a href="/signin" class="font-medium text-indigo-600 hover:text-indigo-500">
-            Already have an account
+            đã có tài khoản
           </a>
         </p>
       </div>
@@ -17,19 +17,19 @@ const Signup = {
         <input type="hidden" name="remember" value="true">
         <div class="rounded-md shadow-sm -space-y-px">
           <div>
-            <label for="email-address" class="">Email address</label>
+            <label for="email-address" class="">Địa chỉ Email</label>
             <input id="email-address" name="email" type="email" autocomplete="email" required class="appearance-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm mt-2">
           </div>
           <div class="pt-5">
-            <label for="user_name" class="">Username</label>
+            <label for="user_name" class="">Tên tài khoản</label>
             <input id="user_name" name="email" type="text" required class="appearance-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm mt-2">
           </div>
           <div class="pt-5">
-            <label for="password" class="">Password</label>
+            <label for="password" class="">Mật khẩu</label>
             <input id="password" name="password" type="password" autocomplete="current-password" required class="appearance-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm mt-2">
           </div>
           <div class="pt-5">
-            <label for="password" class="">Re Password</label>
+            <label for="password" class="">Nhập lại mật khẩu</label>
             <input id="password" name="password" type="password" autocomplete="current-password" required class="appearance-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm mt-2">
           </div>
         </div>
@@ -42,7 +42,7 @@ const Signup = {
                 <path fill-rule="evenodd" d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z" clip-rule="evenodd" />
               </svg>
             </span>
-            Sign up
+            Đăng ký
           </button>
         </div>
       </form>

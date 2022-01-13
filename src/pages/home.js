@@ -10,7 +10,7 @@ const HomePage = {
                               <div class="grid grid-cols-3 gap-8">
                                  ${news.map((e) => `
                                     <div class="px-5 border border-red-300 py-3">
-                                       <a href="news/${e.id}">
+                                       <a href="news/post=${e.id}">
                                           <img src="${e.image}" class="w-full m-auto py-3" alt="" />
                                           <h4 class="text-lg font-bold text-orange-700"> ${e.title}</h4>
                                        </a>
@@ -23,7 +23,7 @@ const HomePage = {
                               <div class="grid grid-cols-3 gap-8">
                                  ${activities.map((e) => `
                                     <div class="px-5 border border-red-300 py-3">
-                                       <a href="activities/${e.id}">
+                                       <a href="activities/post=${e.id}">
                                           <img src="${e.image}" class="w-full m-auto py-3" alt="" />
                                           <h4 class="text-lg font-bold text-orange-700"> ${e.title}</h4>
                                        </a>

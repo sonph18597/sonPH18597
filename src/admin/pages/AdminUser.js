@@ -1,7 +1,9 @@
-import DataUser from "./DataUser";
+import { DataUser } from "../DataAdmin";
 
 const AdminUser = {
-    show: () => `<table class="min-w-full divide-y divide-gray-200">
+    show: () => `
+    <a href="/admin/news/add" class="font-bold text-lg text-neutral-600 m-3 block">Thêm mới</a>
+    <table class="min-w-full divide-y divide-gray-200">
     <thead class="bg-gray-50">
       <tr>
         <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
@@ -16,8 +18,8 @@ const AdminUser = {
         <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
           Role
         </th>
-        <th scope="col" class="relative px-6 py-3">
-          <span class="sr-only">Edit</span>
+        <th scope="col" class="px-6 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">
+                Action
         </th>
       </tr>
     </thead>

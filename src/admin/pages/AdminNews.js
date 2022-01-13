@@ -1,4 +1,4 @@
-import { news } from "../data";
+import { news } from "../../data";
 
 const AdminNews = {
     show: () => `
@@ -21,11 +21,9 @@ const AdminNews = {
                 <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                   Description
                 </th>
+                
                 <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                  Content
-                </th>
-                <th scope="col" class="relative px-6 py-3">
-                  <span class="sr-only">Edit</span>
+                  Action
                 </th>
               </tr>
             </thead>
@@ -52,7 +50,7 @@ const AdminNews = {
                         ${e.desc}
                       </td>
                       <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
-                        <a href="admin/news/${e.id}/edit" class="text-indigo-600 hover:text-indigo-900">Edit</a>
+                        <a href="admin/news/post=${e.id}/edit" class="text-indigo-600 hover:text-indigo-900">Edit</a>
                       </td>
                 </tr>`).join("")}
               
