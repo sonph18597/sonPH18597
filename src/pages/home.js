@@ -12,7 +12,7 @@ const HomePage = {
                                     <div class="px-5 border border-red-300 py-3">
                                        <a href="news/post=${e.id}">
                                           <img src="${e.image}" class="w-full m-auto py-3" alt="" />
-                                          <h4 class="text-lg font-bold text-orange-700"> ${e.title}</h4>
+                               s           <h4 class="text-lg font-bold text-orange-700"> ${e.title}</h4>
                                        </a>
                                        <p class="mt-5 text-sm">${e.desc}</p>
                                     </div>`).join("")}
