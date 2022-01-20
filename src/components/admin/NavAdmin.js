@@ -1,4 +1,4 @@
-import { DataMenu } from "../DataAdmin";
+import { DataMenu } from "../../DataAdmin";
 
 const NavAdmin = {
     show: () => `<ul class="text-white flex" id="header_bottom">

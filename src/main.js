@@ -6,12 +6,12 @@ import newsDetail from "./pages/newsDetail";
 import activitiesDetail from "./pages/activitiesDetail";
 import Signin from "./pages/signin";
 import Signup from "./pages/signup";
-import AdminDashboard from "./admin/pages/AdminDashboard";
-import AdminNews from "./admin/pages/AdminNews";
-import AdminUser from "./admin/pages/AdminUser";
-import AddNews from "./admin/pages/AddNews";
-import EditNews from "./admin/pages/EditNews";
-import AdminHeader from "./admin/components/AdminHeader";
+import AdminDashboard from "./pages/admin/AdminDashboard";
+import AdminNews from "./pages/admin/AdminNews";
+import AdminUser from "./pages/admin/AdminUser";
+import AddNews from "./pages/admin/AddNews";
+import EditNews from "./pages/admin/EditNews";
+import AdminHeader from "./components/admin/AdminHeader";
 import Footer from "./components/footer";
 
 const header = document.querySelector("#header");

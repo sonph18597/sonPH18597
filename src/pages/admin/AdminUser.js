@@ -1,4 +1,4 @@
-import { DataUser } from "../DataAdmin";
+import { DataUser } from "../../DataAdmin";
 
 const AdminUser = {
     show: () => `
